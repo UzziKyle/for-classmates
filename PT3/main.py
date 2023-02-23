@@ -16,8 +16,10 @@ def finalOutput(finalPrice):
     finalPizzaChoice = {
         "Customer" : custName.capitalize(),
         "Pizza Preference": prefPizza.capitalize(),
-        "Bill" : finalPrice
+        "Base": base
     }
+    
+    finalPizzaChoice.update(finalPrice)
     
     print("\nCustomer: " + finalPizzaChoice["Customer"])
     print("Pizza Preference: " + finalPizzaChoice["Pizza Preference"])
