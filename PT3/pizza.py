@@ -25,7 +25,7 @@ def specialAddOns(base,a,b,c,d,e):
 
 
 def primoAddOns(base,a,b,c,d,e,f,g,h):
-    print("Mozzarella Cheese\nPepper\nBaconHam\nMushroom\nOnions Chili\nTomato\nPineapple\nSalami")
+    print("Mozzarella Cheese\nPepper\nBacon Ham\nMushroom\nOnions Chili\nTomato\nPineapple\nSalami")
     addOnsPrice = a + b + c + d + e + f + g + h
     finalPrice = base + addOnsPrice
 
